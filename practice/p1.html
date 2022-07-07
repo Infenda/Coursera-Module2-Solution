@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="utf-8">
+        <title> MyFirstWeb</title>
+        <style>
+            div {
+                color :rgb(66, 0, 248);
+                font-size: 30px;
+                padding: 10px;
+                text-align: center;
+            }
+            spam{
+                color :rgb(6, 156, 243);
+                font-size: 30px;
+                padding: 10px;
+            }
+            .a{
+                color:rgb(17, 1, 59);
+                font-size: 40px;
+                text-align: center;
+                padding: 30px;
+            }
+            #b{
+                text-align: left;
+                width: 50%; 
+            }
+            h3{
+                text-align: right;
+            }
+            p,.c{
+                color: rgb(7, 7, 14);
+                width:70%;
+                text-align: right;
+                background-color: rgb(132, 102, 160);
+                opacity: .9;
+            }
+        </style>
+    </head>
+    <body>
+        <!--width in css is used for how many space the content will take, spam is an inline element so some attributes like text-align,width,.. doesn't works;it uses the blocklevel's attributes-->
+        <div>Writing from basics </div><div>Hoping to learn more and create my own web faster!!!</div>
+        <spam>Excited!!😀🥳<div>yaayyyy!!!!</div>as we have used div element before spam it forces spam into a new line</spam><div>Div element is a block level element so it gets into a new line byitself</div>
+        <div>whereas spam element is an inline element and <spam>can be used between div element</spam> but can't use div in between spam, u'll get an error in w3c validator</div>
+        <spam>css</spam>
+        <div> meta element is standby alone element and it gives information TO THE BROWSER</div>
+        <h1 class="a">heading element</h1>
+        <h2 id="b">can have as many heading elements, the last heading will be given least importance</h2>
+        <h3>font size goes on decreasing</h3>
+        <h4 class="c">last heading</h4>
+        <p>nxcbgviufy vcxjnb djf gbcmncxbjgh </p>
+
+        <!--css:selectors
+        p is known as element selector
+        .a is known as class collector and in html we mention it as 'h1 class="a"'
+        #b is known as id selector and in html we use it as 'h2 id="b"'
+        and if we want to use same css for 2/more html contents we can groupit by 'p,.c'
+        opacity is for both color and background color-->
+    </body>
+</html>
